@@ -86,8 +86,10 @@ npx wrangler deploy
 
 1.  在浏览器访问：`https://你的域名/admin`
 2.  或者点击首页右下角的 ⚙️ 图标。
-3.  输入用户名: `admin`
-4.  输入密码: (你在 `wrangler.toml` 中设置的初始密码，或在后台修改后的新密码)
+3.  <img width="2560" height="1528" alt="image" src="https://github.com/user-attachments/assets/f958d331-bc1d-4aa8-9ef8-e01f5750caad" />
+
+4.  输入用户名: `admin`
+5.  输入密码: (你在 `wrangler.toml` 中设置的初始密码，或在后台修改后的新密码)
 
 ### 渠道配置教程
 
