@@ -258,10 +258,10 @@ export const ADMIN_HTML = (configStr) => `
     </style>
 </head>
 <body>
+    <form id="configForm">
     <div class="card">
         <a href="?logout" class="logout">退出登录</a>
         <h2>⚙️ 全局设置</h2>
-        <form id="configForm">
             <div class="form-group">
                 <label>车主手机号 (用于拨号功能)</label>
                 <input type="text" name="phoneNumber" placeholder="13800138000">
@@ -361,8 +361,8 @@ export const ADMIN_HTML = (configStr) => `
         </div>
         
         <button type="button" class="save" onclick="saveConfig()">💾 保存配置</button>
-        </form>
     </div>
+    </form>
 
     <div class="card">
         <h2>🔒 修改后台密码</h2>
