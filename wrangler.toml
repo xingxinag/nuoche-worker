@@ -12,7 +12,7 @@ preview_id = "09ca10499c4b480c9d58936e2cefe5df"
 # 环境变量 (默认值，可选)
 [vars]
 # 后台管理员密码 (必填)
-ADMIN_PASSWORD = "admin205"
+ADMIN_PASSWORD = "admin"
 
 # 默认配置 (可选，可以在后台界面覆盖)
 # showPhoneNumber = "false"
