@@ -1,0 +1,19 @@
+name = "nuoche-worker"
+main = "src/index.js"
+compatibility_date = "2023-12-01"
+
+# 绑定 KV 存储 (请替换为您自己的 KV 命名空间 ID)
+# 运行 `npx wrangler kv:namespace create nuoche-1` 获取 ID
+[[kv_namespaces]]
+binding = "nuoche-1"
+id = "09ca10499c4b480c9d58936e2cefe5df"
+preview_id = "09ca10499c4b480c9d58936e2cefe5df"
+
+# 环境变量 (默认值，可选)
+[vars]
+# 后台管理员密码 (必填)
+ADMIN_PASSWORD = "admin205"
+
+# 默认配置 (可选，可以在后台界面覆盖)
+# showPhoneNumber = "false"
+# phoneNumber = ""
